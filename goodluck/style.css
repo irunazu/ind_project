@@ -3,3 +3,45 @@
   margin: 0;
   box-sizing:border-box;
 }
+body{
+  background-color: rgb(211, 231, 240);
+  color: rgb(39, 16, 143);
+  
+}
+.card{
+  width: 300px;
+  border: 3px solid #144916;
+  margin: 20px auto;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+h3{
+  text-align: center;
+  margin-top: 10px;
+}
+p{
+  text-align: justify;
+  margin-top: 20px;
+}
+span{
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+button{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #0d8f5d;
+  color: #fafafa;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #38554a;
+  
+}
