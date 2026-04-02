@@ -133,12 +133,30 @@
           color: #fff;
           padding: 2rem 0;
           text-align: center;
-          margin-top: auto; /* Прижать к низу */
+          margin-top: auto;
         }
 
         footer a {
-          color: #ff7b25 !important; /* Tailwind оранжевый */
+          color: #ff7b25 !important;
           text-decoration: underline !important;
+        }
+        
+        /* Стиль для кнопки */
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #2b7a62, #00b4a2);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 12px rgba(0,180,162,0.3);
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,180,162,0.4);
         }
 
         @media (max-width: 768px) {
@@ -161,7 +179,7 @@
     </header>
 
     <section class="hero container">
-      <h1>Программирование для всех</h1>
+      <h1>Самостоятельное изучение<br>языков программирования</h1>
       <p style="text-align:center;">Структурированный путь к освоению языков программирования с нуля до первых проектов. Мы поможем вам сделать первые шаги в IT и обрести востребованную профессию.</p>
     </section>
 
@@ -177,7 +195,7 @@
            <strong>Ответ:</strong> Начните с анализа рынка труда, составления плана обучения, распределения времени и тестирования полученных знаний.
          </li>
          <li class="feature-item">
-           <strong>Вопрос:</strong> Как избежать распространенных ошибок при изучении программирования?<br/>
+           <strong>Вопрос:</strong> Как избежать распространенных ошибок при обучении программированию?<br/>
            <strong>Ответ:</strong> Не пренебрегайте практикой и теорией, избегайте слепого копирования кода и обязательно задавайте вопросы, если возникают трудности.
          </li>
       </ul>
@@ -254,7 +272,10 @@
            <p>При возникновении ошибки новички часто просто копируют исправленный код из интернета. Важно научиться читать сообщения об ошибках (traceback) и понимать их причину.</p>
          </div>
       </div>
-      <center style="margin-top:30px;"><a href="./web.html" class="">Перейти к изучению Python</a></center>
+      <center style="margin-top:30px;">
+        <a href="./web.html" class="btn">🎯 Смотреть пример: план изучения Python →</a>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #5b7f8c;">На примере Python вы увидите, как выстроить стратегию обучения для любого языка</p>
+      </center>
     </section>
 
     <section id="contacts" class="container">
@@ -263,7 +284,7 @@
       <center style="margin-bottom:-2rem;"><a href="">Email: irunazuuchiha@gmail.com</a></center><br><br> 
       <center style="margin-bottom:-2rem;"><a href="https://max.ru/u/f9LHodD0cOJEYwLW3cUJqsc-_xfDG9m4pSTYnUSqw8LEKC3B6yEmKHh25Dc">Max</a></center>
     </section>
-<!-- Email:<br/>irunazuuchiha@gmail.com -->
+
     <footer class="container">
       <hr style="border-color:#ff7b25; margin-bottom:.5rem; border-top:.5px solid; opacity:.7;">
       © ИРУНАЗУ | Все права защищены.
